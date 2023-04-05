@@ -11,6 +11,10 @@ return {
   -- },
   --
   {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+  {
     "akinsho/toggleterm.nvim",
     lazy = false,
     opts = {

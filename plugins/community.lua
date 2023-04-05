@@ -10,5 +10,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.colorscheme.tokyonight" },
+  { import = "astrocommunity.colorscheme.kanagawa" },
+  { import = "astrocommunity.colorscheme.nightfox" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
