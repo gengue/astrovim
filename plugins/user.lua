@@ -11,6 +11,12 @@ return {
   -- },
   --
   {
+    "rcarriga/nvim-notify",
+    opts = {
+      background_colour = "#000000",
+    },
+  },
+  {
     "tpope/vim-fugitive",
     lazy = false,
   },
@@ -67,5 +73,15 @@ return {
         },
       }
     end,
+  },
+  {
+    "Equilibris/nx.nvim",
+    dependencies = {
+      "nvim-telescope/telescope.nvim",
+    },
+    config = function() require("nx").setup {} end,
+  },
+  {
+    "mg979/vim-visual-multi",
   },
 }
